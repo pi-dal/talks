@@ -1,7 +1,9 @@
-node_modules
+node_modules/
 .DS_Store
-dist
+dist/
 *.local
-.vite-inspect
-.remote-assets
+.vite-inspect/
+.remote-assets/
 components.d.ts
+.slidev/
+index.html

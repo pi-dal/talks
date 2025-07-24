@@ -57,3 +57,8 @@ temp/
 
 # Slidev specific
 **/.slidev/
+**/index.html
+
+# Individual talk gitignores should also exclude these
+*/dist/
+*/node_modules/

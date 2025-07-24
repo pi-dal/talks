@@ -49,8 +49,12 @@ function buildTalk(talkDir) {
       execSync('pnpm install', { stdio: 'inherit' })
     }
     
-    // Build the presentation
-    execSync('pnpm run build', { stdio: 'inherit' })
+    // Build the presentation with correct base path
+    const basePath = `/${talkDir.name}/`
+    execSync('pnpm run build', { 
+      stdio: 'inherit',
+      env: { ...process.env, SLIDEV_BASE: basePath }
+    })
     
     console.log(`✅ Built ${talkDir.name}`)
     return true

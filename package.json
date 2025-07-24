@@ -9,15 +9,12 @@
     "dev": "npm run organize && npm run select-talk",
     "select-talk": "node scripts/select-talk.js",
     "readme": "node scripts/generate-readme.js",
-    "deploy": "npm run build:all && wrangler pages deploy dist",
+    "deploy": "npm run build:all",
     "clean": "rm -rf dist && find . -name 'dist' -type d -not -path './node_modules/*' -exec rm -rf {} + 2>/dev/null || true"
   },
-  "devDependencies": {
-    "@slidev/cli": "^52.0.0",
-    "wrangler": "^3.0.0"
-  },
+  "devDependencies": {},
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
-  "packageManager": "pnpm@8.0.0"
+  "packageManager": "pnpm@10.12.1"
 }
