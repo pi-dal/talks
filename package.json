@@ -1,0 +1,23 @@
+{
+  "name": "talks",
+  "type": "module",
+  "private": true,
+  "description": "Collection of presentation slides organized by date",
+  "scripts": {
+    "organize": "node scripts/organize-talks.js",
+    "build:all": "node scripts/build-all.js",
+    "dev": "npm run organize && npm run select-talk",
+    "select-talk": "node scripts/select-talk.js",
+    "readme": "node scripts/generate-readme.js",
+    "deploy": "npm run build:all && wrangler pages deploy dist",
+    "clean": "rm -rf dist && find . -name 'dist' -type d -not -path './node_modules/*' -exec rm -rf {} + 2>/dev/null || true"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^52.0.0",
+    "wrangler": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "pnpm@8.0.0"
+}
