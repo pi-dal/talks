@@ -30,6 +30,7 @@ How language divides the world
 
 ---
 layout: default
+hide_page_number: true
 ---
 
 # Presentation Outline
@@ -66,6 +67,30 @@ layout: section
 
 # Part 1: The Power of Language
 Everyday Ethnocentrism & The Nacirema
+
+---
+layout: default
+hide_page_number: true
+---
+
+# Outline: Part 1
+
+<div class="mt-16 flex flex-col gap-10 max-w-2xl mx-auto">
+  <div v-click class="flex items-center gap-6 p-4 rounded-xl border border-gray-200 bg-white shadow-sm hover:shadow-md transition">
+    <div class="w-12 h-12 rounded-full bg-blue-50 text-blue-800 font-bold flex items-center justify-center shrink-0 border border-blue-200 shadow-inner">1</div>
+    <div class="text-xl text-gray-800">The Absurd Internet Hook</div>
+  </div>
+  
+  <div v-click class="flex items-center gap-6 p-4 rounded-xl border border-gray-200 bg-white shadow-sm hover:shadow-md transition">
+    <div class="w-12 h-12 rounded-full bg-blue-50 text-blue-800 font-bold flex items-center justify-center shrink-0 border border-blue-200 shadow-inner">2</div>
+    <div class="text-xl text-gray-800">Social Identity Theory</div>
+  </div>
+  
+  <div v-click class="flex items-center gap-6 p-4 rounded-xl border border-gray-200 bg-white shadow-sm hover:shadow-md transition">
+    <div class="w-12 h-12 rounded-full bg-blue-50 text-blue-800 font-bold flex items-center justify-center shrink-0 border border-blue-200 shadow-inner">3</div>
+    <div class="text-xl text-gray-800">The Nacirema Mapping & Alienation</div>
+  </div>
+</div>
 
 ---
 layout: two-cols-header
@@ -464,6 +489,30 @@ layout: section
 # Part 2: Amplification & Internalization
 Media, Politics, and Algorithms
 
+---
+layout: default
+hide_page_number: true
+---
+
+# Outline: Part 2
+
+<div class="mt-16 flex flex-col gap-10 max-w-2xl mx-auto">
+  <div v-click class="flex items-center gap-6 p-4 rounded-xl border border-gray-200 bg-white shadow-sm hover:shadow-md transition">
+    <div class="w-12 h-12 rounded-full bg-red-50 text-red-800 font-bold flex items-center justify-center shrink-0 border border-red-200 shadow-inner">1</div>
+    <div class="text-xl text-gray-800">Internalization of Bias</div>
+  </div>
+  
+  <div v-click class="flex items-center gap-6 p-4 rounded-xl border border-gray-200 bg-white shadow-sm hover:shadow-md transition">
+    <div class="w-12 h-12 rounded-full bg-red-50 text-red-800 font-bold flex items-center justify-center shrink-0 border border-red-200 shadow-inner">2</div>
+    <div class="text-xl text-gray-800">Categorization & Media Power</div>
+  </div>
+  
+  <div v-click class="flex items-center gap-6 p-4 rounded-xl border border-gray-200 bg-white shadow-sm hover:shadow-md transition">
+    <div class="w-12 h-12 rounded-full bg-red-50 text-red-800 font-bold flex items-center justify-center shrink-0 border border-red-200 shadow-inner">3</div>
+    <div class="text-xl text-gray-800">The Algorithmic Era & Historical Tragedies</div>
+  </div>
+</div>
+
 <!-- P2 Starts Here -->
 
 ---
@@ -540,7 +589,6 @@ layout: center
 
 ---
 layout: center
-class: bg-red-950 text-white
 ---
 
 # Extreme Historical Tragedies
@@ -555,13 +603,17 @@ class: bg-red-950 text-white
 </div>
 
 ---
-layout: statement
+layout: center
 ---
 
-# HOW DO WE BREAK FREE?
+<div class="flex flex-col items-center justify-center w-full">
+  <div class="flex justify-center mb-12">
+    <img src="/p2/image9.png" class="rounded-xl shadow-xl max-h-[350px] object-contain" />
+  </div>
 
-<div v-click class="flex justify-center mt-12">
-  <img src="/p2/image9.png" class="rounded shadow-xl max-h-[250px] object-contain" />
+  <h1 v-click class="text-6xl font-bold text-center !mb-0 text-gray-800 tracking-wider">
+    HOW DO WE BREAK FREE?
+  </h1>
 </div>
 
 <div class="absolute bottom-4 left-8 text-[9px] text-gray-400 font-serif opacity-70">
@@ -576,6 +628,30 @@ layout: section
 
 # Part 3: Reflection & Conclusion
 Breaking Free from Ethnocentrism
+
+---
+layout: default
+hide_page_number: true
+---
+
+# Outline: Part 3
+
+<div class="mt-16 flex flex-col gap-10 max-w-3xl mx-auto">
+  <div v-click class="flex items-center gap-6 p-4 rounded-xl border border-gray-200 bg-white shadow-sm hover:shadow-md transition">
+    <div class="w-12 h-12 rounded-full bg-gray-100 text-gray-800 font-bold flex items-center justify-center shrink-0 border border-gray-300 shadow-inner">1</div>
+    <div class="text-xl text-gray-800">Defamiliarization in Modern Chinese Literature</div>
+  </div>
+  
+  <div v-click class="flex items-center gap-6 p-4 rounded-xl border border-gray-200 bg-white shadow-sm hover:shadow-md transition">
+    <div class="w-12 h-12 rounded-full bg-gray-100 text-gray-800 font-bold flex items-center justify-center shrink-0 border border-gray-300 shadow-inner">2</div>
+    <div class="text-xl text-gray-800">Decentering Sinocentrism Through Defamiliarization</div>
+  </div>
+  
+  <div v-click class="flex items-center gap-6 p-4 rounded-xl border border-gray-200 bg-white shadow-sm hover:shadow-md transition">
+    <div class="w-12 h-12 rounded-full bg-gray-100 text-gray-800 font-bold flex items-center justify-center shrink-0 border border-gray-300 shadow-inner">3</div>
+    <div class="text-xl text-gray-800">Ethnocentrism ≠ National Pride</div>
+  </div>
+</div>
 
 ---
 layout: two-cols
@@ -653,6 +729,7 @@ layout: center
 
 ---
 layout: center
+hide_page_number: true
 ---
 
 # References
@@ -670,4 +747,17 @@ layout: center
   <p>[10] Buwert, P. <i>Defamiliarisation, Brecht and criticality in graphic design</i> (2016).</p>
   <p>[11] Chang, C. K. Evaluating “Cat Country”: The humor within satire. Arizona State University (2010).</p>
   <p>[12] Biglan, A. The characteristics of subject matter in different academic areas. <i>J. Appl. Psychol.</i> <b>57</b>, 195 (1973).</p>
+</div>
+
+
+---
+layout: center
+class: text-center
+hide_page_number: true
+---
+
+# Thank You!
+
+<div class="mt-8 text-2xl text-gray-500 tracking-widest font-serif">
+  Q & A
 </div>
