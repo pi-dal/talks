@@ -28,3 +28,9 @@ function getRealPageNumber(currentIdx) {
   return currentIdx - 2 - sectionCount;
 }
 </script>
+
+<style>
+#slidev-goto-dialog[class~='-top-20'] {
+  display: none !important;
+}
+</style>
