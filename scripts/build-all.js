@@ -163,8 +163,17 @@ function main() {
   
   if (successCount > 0) {
     console.log('\n📦 Copying to distribution directory...')
-    copyToDistribution(talkDirs.filter((_, index) => index < successCount))
+    // Copy ONLY the talks that actually succeeded
+    const successfulTalks = talkDirs.filter(dir => {
+      return fs.existsSync(path.join(dir.path, 'dist', 'index.html'))
+    })
+    copyToDistribution(successfulTalks)
     console.log(`\n✨ All builds complete! Distribution ready in ./dist/`)
+  }
+
+  if (successCount < talkDirs.length) {
+    console.error(`\n❌ Some builds failed. Failing the overall build to prevent partial deployments.`)
+    process.exit(1)
   }
 }
 
