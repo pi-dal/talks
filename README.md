@@ -4,6 +4,11 @@ My presentation slides, built with [Slidev](https://sli.dev).
 
 ## 🎤 Talks
 
+### 2026
+
+- [**Everyday Ethnocentrism**](https://talks.pi-dal.com/2026-04-21-Everyday-Ethnocentrism/) - 2026-04-21
+
+
 ### 2025
 
 - [**如何用四维矢量来解决狭义相对论问题**](https://talks.pi-dal.com/2025-07-22-STR-Four-Vector/) - 2025-07-22
