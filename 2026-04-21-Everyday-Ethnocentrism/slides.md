@@ -607,6 +607,10 @@ layout: center
   </div>
 </div>
 
+<div class="absolute bottom-4 left-8 text-[9px] text-gray-400 font-serif opacity-70">
+  Buwert, P. <i>Defamiliarisation, Brecht and criticality in graphic design</i> (2016).
+</div>
+
 ---
 layout: quote
 ---
@@ -633,6 +637,10 @@ layout: center
   <img v-click src="/p3/image10.png" class="rounded-xl shadow-xl max-h-[250px] object-contain" />
 </div>
 
+<div class="absolute bottom-4 left-8 text-[9px] text-gray-400 font-serif opacity-70">
+  Biglan, A. <i>J. Appl. Psychol.</i> <b>57</b>, 195 (1973).
+</div>
+
 ---
 layout: center
 ---
@@ -649,7 +657,7 @@ layout: center
 
 # References
 
-<div class="text-[12px] leading-relaxed mt-8 space-y-4 font-serif text-gray-600 max-w-4xl mx-auto text-left">
+<div class="text-[11px] leading-snug mt-6 space-y-3 font-serif text-gray-600 max-w-4xl mx-auto text-left">
   <p>[1] Musk, E. Post on X: “The same people who blame the West for everything also consider it a human rights violation to stop the rest of Earth from moving here.” X, 14 June 2025.</p>
   <p>[2] Kirk, C. Post on X quoting JD Vance on Europe and “civilizational suicide.” X, 30 July 2025.</p>
   <p>[3] Tajfel, H. & Turner, J. C. An integrative theory of intergroup conflict. In <i>The Social Psychology of Intergroup Relations</i> (eds Austin, W. G. & Worchel, S.) 33–47 (Brooks/Cole, 1979).</p>
@@ -659,4 +667,7 @@ layout: center
   <p>[7] Tajfel, H., Billig, M. G., Bundy, R. P., & Flament, C. Social categorization and intergroup behaviour. <i>Eur. J. Soc. Psychol.</i> <b>1</b>, 149–178 (1971).</p>
   <p>[8] Zuo, Y. The Formation of Reactionary Regimes: A Retrospective on Fascism. <i>Liberation Daily</i> (15 Apr. 2015). Accessed via SJTU News.</p>
   <p>[9] Sun, X. Beyond Western-Centric Perspectives: Modernization and Knowledge System Construction. <i>People's Tribune: Frontiers</i> <b>2022(1)</b> (2022).</p>
+  <p>[10] Buwert, P. <i>Defamiliarisation, Brecht and criticality in graphic design</i> (2016).</p>
+  <p>[11] Chang, C. K. Evaluating “Cat Country”: The humor within satire. Arizona State University (2010).</p>
+  <p>[12] Biglan, A. The characteristics of subject matter in different academic areas. <i>J. Appl. Psychol.</i> <b>57</b>, 195 (1973).</p>
 </div>
