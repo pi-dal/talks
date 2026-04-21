@@ -12,6 +12,8 @@ drawings:
 transition: slide-up
 title: Everyday Ethnocentrism
 date: 2026-04-21
+defaults:
+  preload: false
 ---
 
 # Everyday Ethnocentrism
