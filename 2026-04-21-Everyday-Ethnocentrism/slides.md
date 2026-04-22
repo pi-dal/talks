@@ -581,9 +581,6 @@ layout: two-cols
 layout: center
 ---
 
-layout: center
----
-
 # Extreme Historical Tragedies
 
 <div class="flex justify-center gap-8 mt-12 items-center">
