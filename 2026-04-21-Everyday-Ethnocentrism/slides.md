@@ -581,13 +581,6 @@ layout: two-cols
 layout: center
 ---
 
-# Entering the Algorithmic Era
-
-<div class="mt-8 flex justify-center w-full">
-  <img v-click src="/p2/image6.png" class="rounded-xl shadow-xl max-h-[400px] object-contain" />
-</div>
-
----
 layout: center
 ---
 
@@ -600,6 +593,14 @@ layout: center
 
 <div class="absolute bottom-4 left-8 text-[9px] text-gray-400 font-serif opacity-70">
   Zuo, Y. <i>Liberation Daily</i> (2015).
+</div>
+
+---
+
+# Entering the Algorithmic Era
+
+<div class="mt-8 flex justify-center w-full">
+  <img v-click src="/p2/image6.png" class="rounded-xl shadow-xl max-h-[400px] object-contain" />
 </div>
 
 ---
